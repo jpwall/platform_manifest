@@ -11,7 +11,7 @@
  
    <remote name="cm"
                  fetch="git://github.com/CyanogenMod"
-                 revision="cm-14.0"
+                 revision="cm-13.0"
                 review="review.cyanogenmod.org" />
 
   <remote  name="private"
@@ -19,17 +19,17 @@
 
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
-	   revision="nougat" />
+	   revision="marshmallow" />
 
   <remote name="rr-d"
 	  fetch="https://github.com/ResurrectionRemix-Devices"
-	  revision="nougat" />
+	  revision="marshmallow" />
 
   <remote name="bucket"
 	  fetch="https://bitbucket.org"
 	  revision="master" />
 
-  <default revision="refs/heads/cm-14.0"
+  <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4"
